@@ -8,8 +8,7 @@ Repositório destinado a estudos, exercícios acadêmicos e códigos diversos em
 ## 🛠️ Tecnologias e Ambiente
 
 <div style="display: inline_block">
-  <img align="center" alt="Java" height="30" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img align="center" alt="VS Code" height="30" src="https://img.shields.io/badge/VS%20Code-0078D7?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
+  <img align="center" alt="Java" height="30" src="" />
 </div>
 
 ## 📚 Nomenclatura das Pastas
@@ -38,7 +37,6 @@ Repository dedicated to studies, academic exercises, and various Java codes that
 
 <div style="display: inline_block">
   <img align="center" alt="Java" height="30" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img align="center" alt="VS Code" height="30" src="https://img.shields.io/badge/VS%20Code-0078D7?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
 </div>
 
 ## 📚 Folder Nomenclature
