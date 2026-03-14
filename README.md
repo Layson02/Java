@@ -3,8 +3,6 @@
 
 [🇺🇸 Read in English](#english)
 
-Repositório destinado a estudos, exercícios acadêmicos e códigos diversos em Java que não integram projetos de maior complexidade.
-
 ## 🛠️ Tecnologias e Ambiente
 
 <div style="display: inline_block">
