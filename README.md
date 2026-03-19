@@ -1,29 +1,3 @@
-<a id="portugues"></a>
-# ☕ Estudos e Práticas em Java
-
-[🇺🇸 Read in English](#english)
-
-## 🛠️ Tecnologias e Ambiente
-
-<div style="display: inline_block">
-  <img align="center" alt="Java" height="30" src="badge/Java-003B70.svg" />
-</div>
-
-## 📚 Nomenclatura das Pastas
-
-Para manter a organização acadêmica, as pastas deste repositório seguem um padrão de siglas:
-* **`P`**: Indica o Período.
-* **`LP1`**: Indica a disciplina de Linguagem de Programação 1.
-* **`E[número]`**: Indica o número do Exercício.
-
-## 📁 Estrutura do Repositório
-
-* **`/Playground`**: Ambiente de testes livres, lógicas experimentais e rascunhos de código.
-* **`/Java_P2_LP1_E2`**: Resolução do Exercício 2.
-* **`/Java_P2_LP1_E3`**: Resolução do Exercício 3.
-
----
-
 <a id="english"></a>
 # ☕ Java Studies and Practices
 
@@ -49,6 +23,32 @@ To maintain academic organization, the folders in this repository follow an acro
 * **`/Playground`**: Sandbox environment for free testing, experimental logic, and draft code.
 * **`/Java_P2_LP1_E2`**: Resolution of Exercise 2.
 * **`/Java_P2_LP1_E3`**: Resolution of Exercise 3.
+
+---
+
+<a id="portugues"></a>
+# ☕ Estudos e Práticas em Java
+
+[🇺🇸 Read in English](#english)
+
+## 🛠️ Tecnologias e Ambiente
+
+<div style="display: inline_block">
+  <img align="center" alt="Java" height="30" src="badge/Java-003B70.svg" />
+</div>
+
+## 📚 Nomenclatura das Pastas
+
+Para manter a organização acadêmica, as pastas deste repositório seguem um padrão de siglas:
+* **`P`**: Indica o Período.
+* **`LP1`**: Indica a disciplina de Linguagem de Programação 1.
+* **`E[número]`**: Indica o número do Exercício.
+
+## 📁 Estrutura do Repositório
+
+* **`/Playground`**: Ambiente de testes livres, lógicas experimentais e rascunhos de código.
+* **`/Java_P2_LP1_E2`**: Resolução do Exercício 2.
+* **`/Java_P2_LP1_E3`**: Resolução do Exercício 3.
 
 ---
 
