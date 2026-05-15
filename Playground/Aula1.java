@@ -30,8 +30,9 @@ public class Aula1 {
 			System.out.println("O seu nome completo é: " + nome + " " + sobrenome);
 			System.out.println("A sua idade é: " + idade);
 
-
+			
 		}
+		entrada.close();
 	}
 
 }
