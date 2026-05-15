@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class E5Q2 {
     public static void main(String[] args) {
@@ -12,21 +13,22 @@ public class E5Q2 {
         vetorX[3] = teclado.nextInt();
         vetorX[4] = teclado.nextInt();
 
-        System.out.println("Vetor X:");
-        
-        for (int i = 0; i < vetorX.length; i++) {
-            System.out.println("vetorX[" + i + "] = " + vetorX[i]);
-        }
+        System.out.println("\n========== VETOR X ==========");
+        System.out.println("Valores: " + Arrays.toString(vetorX));
 
         int vetorY[] = new int[5];
 
-        System.out.println("Vetor Y:");
-
+        System.out.println("\n========== VETOR Y (METADE DE X) ==========");
         for (int i = 0; i < vetorX.length; i++) {
-            vetorY[i] = vetorX[i] % 2;
-        
-            System.out.println("vetorY[" + i + "] = " + vetorY[i]);
+            vetorY[i] = vetorX[i] / 2;
         }
+        System.out.println("Valores: " + Arrays.toString(vetorY));
+
+        System.out.println("\n---------- Detalhado ----------");
+        for (int i = 0; i < vetorX.length; i++) {
+            System.out.println("X[" + i + "] = " + vetorX[i] + " > Y[" + i + "] = " + vetorY[i]);
+        }
+        
         teclado.close();
     }
 }
