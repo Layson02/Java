@@ -32,7 +32,6 @@ public class Aula1 {
 
 			
 		}
-		entrada.close();
 	}
 
 }

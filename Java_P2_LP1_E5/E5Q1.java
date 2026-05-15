@@ -4,12 +4,14 @@ public class E5Q1 {
     public static void main(String[] args) {
         int vetorA[] = new int[5];
         Scanner teclado = new Scanner(System.in);
-        System.out.println("Digite 5 nÃºmeros inteiros:");
+        System.out.println("Digite 5 numeros inteiros:");
+
         vetorA[0] = teclado.nextInt();
         vetorA[1] = teclado.nextInt();
         vetorA[2] = teclado.nextInt();
         vetorA[3] = teclado.nextInt();
         vetorA[4] = teclado.nextInt();
+        
         System.out.println("Vetor A:");
 
         for (int i = 0; i < vetorA.length; i++) {
