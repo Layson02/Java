@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class eamatriz2 {
-    public static void main(String[] args) [
+    public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         int[][] matriz = new int[3][3];
 
@@ -23,5 +23,7 @@ public class eamatriz2 {
 
         System.out.println("Numero de linhas: " + matriz.length);
         System.out.println("Numero de colunas: " + matriz[0].length);
-    ]
+
+        teclado.close();
+    }
 }
