@@ -1,23 +1,4 @@
-
-// EXERCÍCIO 1 — Sistema de gerenciamento de contas bancárias
-// Uma instituição financeira precisa desenvolver um sistema para controlar operações em
-// contas bancárias. Crie uma classe ContaBancaria com os atributos:
-
-// Requisitos obrigatórios:
-// 1. Todos os atributos devem ser privados.
-// 2. Crie um construtor que receba identificador, titular e saldo inicial.
-// 3. Implemente os métodos públicos depositar(), sacar(), ativar() e desativar().
-// 4. O saldo não poderá ser alterado diretamente por um setter.
-// 5. Um depósito deverá ser recusado quando a conta estiver inativa ou o valor for inválido.
-// 6. Um saque deverá ser recusado quando a conta estiver inativa, o valor for inválido ou o
-// saldo for insuficiente.
-// 7. Crie obrigatoriamente os dois métodos privados apresentados a seguir.
-// 8. Os métodos públicos deverão utilizar esses métodos privados para realizar as validações.
-// 9. Crie uma classe Main para demonstrar as operações.
-// private boolean valorValido(double valor)
-// private boolean possuiSaldoSuficiente(double valor)
-
-package Java_P3_Back_E1.contas_bancárias;
+package e1q1_contas;
 
 public class ContaBancaria {
     private Long id;
@@ -34,6 +15,14 @@ public class ContaBancaria {
 
     private boolean valorValido(double valor) {
         return valor > 0;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getTitular() {
+        return titular;
     }
 
     private boolean possuiSaldoSuficiente(double valor) {
