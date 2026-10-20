@@ -1,3 +1,4 @@
+package aula8;
 public class vetor2 {
     public static void main(String[] args) {
         int[] vetor = new int[]{10, 20, 30, 40, 50};

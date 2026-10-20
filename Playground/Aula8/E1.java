@@ -1,3 +1,4 @@
+package aula8;
 import java.util.Scanner;
 
 public class E1 {

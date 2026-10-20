@@ -1,3 +1,4 @@
+package aula8;
 public class vetor_while {
     public static void main(String[] args) {
         int[] vetor = new int[]{10, 20, 30, 40, 50};
