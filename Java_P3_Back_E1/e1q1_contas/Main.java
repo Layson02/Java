@@ -1,4 +1,4 @@
-package Java_P3_Back_E1.contas_bancárias;
+package e1q1_contas;
 
 public class Main {
     public static void main(String[] args) {
