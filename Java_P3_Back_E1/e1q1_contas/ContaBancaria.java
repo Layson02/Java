@@ -17,6 +17,14 @@ public class ContaBancaria {
         return valor > 0;
     }
 
+    public Long getId() {
+        return id;
+    }
+
+    public String getTitular() {
+        return titular;
+    }
+
     private boolean possuiSaldoSuficiente(double valor) {
         return saldo >= valor;
     }

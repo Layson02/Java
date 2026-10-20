@@ -2,7 +2,7 @@ package e1q1_contas;
 
 public class Main {
     public static void main(String[] args) {
-        ContaBancaria conta = new ContaBancaria(1L, "João Silva", 1000.0);
+        ContaBancaria conta = new ContaBancaria(1L, "Layson V", 1000.0);
 
         conta.depositar(500.0); // Depósito válido
         conta.sacar(200.0); // Saque válido
