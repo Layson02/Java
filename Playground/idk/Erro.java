@@ -1,3 +1,5 @@
+package idk;
+
 import java.util.Scanner; 
 
 public class Erro {
